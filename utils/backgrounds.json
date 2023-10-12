@@ -1,0 +1,44 @@
+{
+    "Spain": [
+        "https://www.youtube.com/watch?v=VjEQQh8H6QQ",
+        "Spain.mp4",
+        "Stock",
+        "center"
+    ],
+    "Switzerland": [
+        "https://www.youtube.com/watch?v=b-Bt4t0sPes",
+        "Switzerland.mp4",
+        "Stock2",
+        "center"
+    ],
+    "Dubai": [
+        "https://www.youtube.com/watch?v=LSy9W9gYDXw",
+        "Dubai.mp4",
+        "Stock",
+        "center"
+    ],
+    "Manhattan": [
+        "https://www.youtube.com/watch?v=p_PQ4VyPDEA",
+        "Manhattan.mp4",
+        "Stock0",
+        "center"
+    ],
+    "Abstract": [
+        "https://www.youtube.com/watch?v=JXrWPLNp9tw",
+        "Abstract.mp4",
+        "Stock",
+        "center"
+    ],
+    "Gym": [
+        "https://www.youtube.com/watch?v=SAMobj-4_rc",
+        "Gym.mp4",
+        "Stock",
+        "center"
+    ],
+    "Football": [
+        "https://www.youtube.com/watch?v=jQOtv6_eo4Y",
+        "Football.mp4",
+        "Stock",
+        "center"
+    ]
+}

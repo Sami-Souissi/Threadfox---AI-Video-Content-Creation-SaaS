@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.html">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="A Premium SaaS Landing Page Kit">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ui8">
+    <meta name="twitter:title" content="ThreadFox">
+    <meta name="twitter:description" content="A Premium SaaS Landing Page Kit">
+    <meta name="twitter:creator" content="@ui8">
+    <meta name="twitter:image" content="img/twitter-card.png">
+    <meta property="og:title" content="ThreadFox">
+    <meta property="og:type" content="Article">
+    <meta property="og:url" content="https://ui8.net/ui8/products/ThreadFox-saas-landing-page-kit">
+    <meta property="og:image" content="img/fb-og-image.png">
+    <meta property="og:description" content="A Premium SaaS Landing Page Kit">
+    <meta property="og:site_name" content="ThreadFox">
+    <meta property="fb:admins" content="132951670226590">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Poppins:wght@600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <script>var viewportmeta = document.querySelector('meta[name="viewport"]');
+if (viewportmeta) {
+  if (screen.width < 375) {
+    var newScale = screen.width / 375;
+    viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+  } else {
+    viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+  }
+}</script>
+  </head>
+  <body>
+    <script>console.log(localStorage.getItem('darkMode'));
+if (localStorage.getItem('darkMode') === "on") {
+		document.body.classList.add("dark");
+		document.addEventListener("DOMContentLoaded", function() {
+		  document.querySelector('.js-switch-theme input').checked = true;
+		});
+}
+</script>
+    <div class="page">
+      <header class="header">
+        <div class="header__center center"><a class="header__logo" href="index.html"><img class="header__pic header__pic_dark" src="img/logo-dark.png" alt="" /><img class="header__pic header__pic_light" src="img/logo-light.png" alt="" /></a>
+          <div class="header__wrapper">
+            <nav class="header__nav"><a class="header__link" href="pricing.html">Pricing</a><a class="header__link" href="about-us.html">About Us</a><a class="header__link active" href="contact.html">Contact</a></nav>
+            <div class="header__btns"><a class="header__btn btn btn_transparent js-popup-open" href="#popup-sign-in" data-effect="mfp-zoom-in">Login</a><a class="header__btn btn btn_orange js-popup-open" href="#popup-sign-up" data-effect="mfp-zoom-in">Sign up</a></div>
+            <picture class="header__preview">
+              <source media="(max-width: 767px)" srcset="img/header-pic-mobile@2x.png, img/header-pic-mobile@2x.png 2x" /><img srcset="img/header-pic@2x.png 2x" src="img/header-pic.png" alt="" /></picture>
+          </div><button class="header__burger"></button>
+        </div>
+      </header>
+      <div class="contact">
+        <div class="contact__center center">
+          <div class="contact__bg">
+            <div class="contact__preview"><img srcset="img/figures-2.1@2x.png 2x" src="img/figures-2.1.png" alt=""></div>
+            <div class="contact__preview" data-aos="animation-translate-up" data-aos-duration="1000"><img srcset="img/figures-2.2@2x.png 2x" src="img/figures-2.2.png" alt=""></div>
+            <div class="contact__preview" data-aos="animation-translate-down" data-aos-duration="1000" data-aos-delay="400"><img srcset="img/figures-2.3@2x.png 2x" src="img/figures-2.3.png" alt=""></div>
+            <div class="contact__preview" data-aos="animation-translate-down" data-aos-duration="1000" data-aos-delay="800"><img srcset="img/figures-2.4@2x.png 2x" src="img/figures-2.4.png" alt=""></div>
+            <div class="contact__preview"><img srcset="img/figures-2.5@2x.png 2x" src="img/figures-2.5.png" alt=""></div>
+          </div>
+          <div class="contact__wrap">
+            <h1 class="contact__title h2" data-aos="animation-scale-top" data-aos-duration="600">Contact Us</h1>
+            <div class="contact__info">Questions, bug reports, feedback.</div>
+            <form class="contact__form">
+              <div class="field">
+                <div class="field__label">Your email</div>
+                <div class="field__wrap"><input class="field__input" type="email" placeholder="Enter your email"></div>
+              </div>
+              <div class="field">
+                <div class="field__label">Tell us what you need help with:</div>
+                <div class="field__wrap"><textarea class="field__textarea" placeholder="Enter a topic, like “channel problem...”"></textarea></div>
+              </div><button class="contact__btn btn btn_orange">Send now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer__center center">
+          <div class="footer__body">
+            <div class="footer__wrap"><a class="footer__logo" href="index.html">
+              <img class="footer__pic footer__pic_dark" src="img/logo-dark.png" alt="" />
+              <img class="footer__pic footer__pic_light" src="img/logo-light.png" alt="" /></a>
+              <div class="footer__text">Threadfox, developed by engineering students Sami Souissi and Mohamed Amine Turki.</div>
+            </div>
+            <div class="footer__line">
+              
+              <div class="footer__nav">
+                <a class="footer__link" href="pricing.html">Pricing</a>
+                <a class="footer__link" href="about-us.html">About Us</a>
+                <a class="footer__link active" href="contact.html">Contact</a></div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__copyright">© ThreadFox. Final Year Project by Sami Souissi and Mohamed Amine Turki.</div>
+            <div class="footer__social"><a class="footer__link" href="#"><svg class="icon icon-facebook">
+                  <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                </svg></a><a class="footer__link" href="#"><svg class="icon icon-twitter">
+                  <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                </svg></a><a class="footer__link" href="#"><svg class="icon icon-instagram">
+                  <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                </svg></a></div>
+          </div>
+        </div><label class="switch js-switch-theme"><input class="switch__input" type="checkbox" /><span class="switch__in"><span class="switch__box"></span><span class="switch__icon switch__icon_dark"><svg class="icon icon-dark">
+                <use xlink:href="img/sprite.svg#icon-dark"></use>
+              </svg></span><span class="switch__icon switch__icon_light"><svg class="icon icon-light">
+                <use xlink:href="img/sprite.svg#icon-light"></use>
+              </svg></span></span></label>
+      </div>
+      <div class="popup mfp-hide" id="popup-sign-up">
+        <div class="popup__title h2">Sign up</div>
+        <div class="popup__variants"><a class="popup__variant" href="#"><img src="img/google.svg" alt="">Sign up via Google</a><a class="popup__variant" href="#"><img src="img/apple.svg" alt="">Sign up via Apple</a></div>
+        <div class="popup__details">Or continue with email</div>
+        <div class="popup__btns"><a class="popup__btn btn btn_dark js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Enter your email</a><a class="popup__btn btn btn_orange js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Continue</a></div>
+        <div class="popup__note">By clicking the Continue button, you agree to the terms of service and privacy policy.</div>
+      </div>
+      
+      <div class="popup mfp-hide" id="popup-sign-in">
+        <div class="popup__title h2">Sign in</div>
+        <div class="popup__variants"><a class="popup__variant" href="#"><img src="img/google.svg" alt="">Sign up via Google</a><a class="popup__variant" href="#"><img src="img/apple.svg" alt="">Sign up via Apple</a></div>
+        <div class="popup__details">Or continue with email & password</div>
+        <div class="popup__btns"><a class="popup__btn btn btn_dark js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Enter your email</a><a class="popup__btn btn btn_dark js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Password</a><a class="popup__btn btn btn_orange js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Sign In</a></div>
+        <div class="popup__note"> </div>
+      </div>
+    </div><!-- scripts-->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/svg4everybody.min.js"></script>
+    <script src="js/lib/owl.carousel.min.js"></script>
+    <script src="js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="js/lib/aos.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

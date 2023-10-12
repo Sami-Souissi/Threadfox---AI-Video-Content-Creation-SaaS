@@ -1,0 +1,49 @@
+[ai]
+ai_similarity_enabled = false
+ai_similarity_keywords = ""
+
+[settings]
+allow_nsfw = false
+theme = "dark"
+times_to_run = 1
+opacity = 1.0
+transition = 0.3
+storymode = true
+storymodemethod = 1
+storymode_max_length = 1100
+resolution_w = 1080
+resolution_h = 1920
+
+[settings.background]
+background_choice = "Spain"
+background_thumbnail = false
+background_thumbnail_font_family = "montserrat"
+background_thumbnail_font_size = 96
+background_thumbnail_font_color = "255,255,255"
+
+[settings.tts]
+voice_choice = "tiktok"
+aws_polly_voice = "Matthew"
+streamlabs_polly_voice = "Matthew"
+tiktok_voice = "en_us_ghostface"
+tiktok_sessionid = "4067fd83300332c3ede6d31d540fd143"
+python_voice = "1"
+py_voice_num = "2"
+silence_duration = 0.3
+no_emojis = false
+
+[reddit.creds]
+client_id = "dv870YIdA3CXeQhSiFhluQ"
+client_secret = "JhGzx5n_zzZ0u4Jz2n9YOpPBeE9x7w"
+username = "Donny7Van7De7beek"
+password = "rra.v.en.x.r.e.yes@gmail.com"
+2fa = false
+
+[reddit.thread]
+random = true
+subreddit = "QuotesPorn"
+post_id = ""
+max_comment_length = 2306
+min_comment_length = 500
+post_lang = ""
+min_comments = 15

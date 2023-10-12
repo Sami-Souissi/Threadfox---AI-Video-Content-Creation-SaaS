@@ -1,0 +1,125 @@
+{% extends "layout.html" %}
+{% block main %}
+<main>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap");
+       
+       * {
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+         transition: all 0.4s ease;
+         font-family: "Poppins", sans-serif;
+       }
+       
+       body {
+           background-size: cover;
+           background-position: center;
+           background-blend-mode: soft-light;
+           min-height: 100vh;
+           background-color: var(--content-bg);
+       }
+       
+       .card {
+         width: 280px;
+         background: linear-gradient(135deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0));
+         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+         backdrop-filter: blur(5px);
+         -webkit-backdrop-filter: blur(5px);
+         border-radius: 7px;
+         border: 1px solid rgba(255, 255, 255, 0.01);
+         text-align: center;
+         overflow: hidden;
+         position: absolute;
+         top: 20%;
+         left: 20%;
+         transform: translate(-50%, -50%);
+       }
+       
+       .content {
+         height: 0;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+       }
+       
+       #month {
+         background: rgb(243, 45, 78);
+         padding: 10px 0;
+         font-size: 25px;
+         font-weight: 700;
+       }
+       
+       #day,
+       #year {
+         font-size: 20px;
+       }
+       
+       #date {
+         font-size: 120px;
+         font-weight: 700;
+         margin: -5px 0;
+       }
+        </style>
+        <meta name="viewport" content="width=device-width" />
+       
+           <div class="card">
+             <div>
+               <div id="month"></div>
+             </div>
+             <div class="content">
+               <div id="day"></div>
+               <div id="date"></div>
+               <div id="year"></div>
+             </div>
+           </div>
+           <script>
+           let date = document.getElementById("date"),
+         day = document.getElementById("day"),
+         month = document.getElementById("month"),
+         year = document.getElementById("year"),
+         days = [
+           "Sunday",
+           "Monday",
+           "Tuesday",
+           "Wednesday",
+           "Thursday",
+           "Friday",
+           "Saturday"
+         ],
+         months = [
+           "January",
+           "February",
+           "March",
+           "April",
+           "May",
+           "June",
+           "July",
+           "August",
+           "September",
+           "October",
+           "November",
+           "December"
+         ];
+       
+       function update() {
+         let now = new Date();
+         date.innerText = now.getDate();
+         day.innerText = days[now.getDay()];
+         month.innerText = months[now.getMonth()];
+         year.innerText = now.getFullYear();
+       }
+       
+       document.body.onload = () => {
+         setInterval(update, 1000);
+         setTimeout(() => {
+           document.getElementsByClassName("content")[0].style.height = "260px";
+           document.getElementsByClassName("card")[0].style.color = "#fff";
+         }, 500);
+       };
+           </script>
+         
+       
+</main>
+
+{% endblock %}
