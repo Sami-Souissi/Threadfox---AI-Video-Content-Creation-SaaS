@@ -66,15 +66,24 @@ Threadfox offers an array of features that empower users to create compelling vi
   <table style="margin: 0 auto;">
     <tr>
       <td> 
-          https://github.com/Sami-Souissi/Threadfox---AI-Video-Content-Creation-SaaS/assets/114808637/71f0df9c-c63a-4158-a58b-0c920d7972da
+          
+
+https://github.com/Sami-Souissi/Threadfox---AI-Video-Content-Creation-SaaS/assets/114808637/7a06c1d5-4305-441c-b266-d922db584e25
+
+
 </td>
       <td>
+          
+
+https://github.com/Sami-Souissi/Threadfox---AI-Video-Content-Creation-SaaS/assets/114808637/8a839714-5d9c-4132-a212-2c91f5e868ad
+
+
 </td>
     </tr>
   </table>
 </div>
 
-          https://github.com/Sami-Souissi/Threadfox---AI-Video-Content-Creation-SaaS/assets/114808637/5723c268-ae2c-489b-8182-9ebc2c4455ef
+          
 
 
 
