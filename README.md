@@ -63,7 +63,7 @@ Threadfox offers an array of features that empower users to create compelling vi
 
 ## Output
 <div style="text-align:center;">
-  <table style="margin: 0 auto;">
+  <table style="text-align:center;">
     <tr>
       <td> 
           
