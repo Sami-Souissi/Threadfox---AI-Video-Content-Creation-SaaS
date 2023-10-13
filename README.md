@@ -62,6 +62,9 @@ Threadfox offers an array of features that empower users to create compelling vi
 
 6. **Customizable Settings:** Tailor your video creation process by customizing various settings such as the TTS engine, video length, watermark position, and more.
 
+## Output
+
+
 ## Technical Details
 
 Threadfox is built using a range of Python libraries, making use of cutting-edge technology for its functionalities. The following technologies are employed:
@@ -80,7 +83,7 @@ Threadfox is built using a range of Python libraries, making use of cutting-edge
 
 - **Local Testing Server:** Flask.
 
-- **Cloud Hosting:** The application is designed to be hosted on the cloud.
+- **Cloud Hosting:** The application is designed to be hosted on Heroku.
 
 ## Getting Started
 
