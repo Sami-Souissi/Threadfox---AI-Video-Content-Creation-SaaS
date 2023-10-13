@@ -1,4 +1,35 @@
+<p align="center">
+    <img width="30%" src="./Preview/logo.png" alt="brand logo" >
+</p>
+
 # Threadfox - Automated Video Content Creation SaaS
+
+## Disclaimer
+
+**Please Note:** The code for this software is strictly classified, as it is currently in the process of being prepared for production and release. This repository is intended for demonstration purposes only. Any unauthorized use, distribution, or replication of this code is strictly prohibited.
+
+## Preview
+![THREADFOX](./Preview/01.png)
+<details>
+  <summary>Click to expand for more images</summary>
+
+  ![Image 1](./Preview/Capture%20d’écran%202023-05-06%20163600.png)
+  ![Image 2](./Preview/Capture%20d’écran%202023-05-06%20163703.png)
+  ![Image 3](./Preview/Capture%20d’écran%202023-05-06%20163749.png)
+   ![Image 4](./Preview/Capture%20d’écran%202023-05-06%20163829.png)
+    ![Image 5](./Preview/Capture%20d’écran%202023-05-06%20163901.png)
+     ![Image 6](./Preview/Capture%20d’écran%202023-05-06%20163943.png)
+      ![Image 7](./Preview/image%20(3).png)
+       ![Image 8](./Preview/image%20(4).png)
+        ![Image 9](./Preview/image%20(5).png)
+        ![Image 10](./Preview/image%20(6).png)
+        ![Image 11](./Preview/image.png)
+        ![Image 12](./Preview/device_mockup_101.png)
+</details>
+
+## Live Demo
+
+🌐 Explore the live demo of THREADFOX's landing page: [**Live Demo**](https://sami-souissi.github.io/Threadfox---Automated-Video-Content-Creation-SaaS-Landing-Page-/) 
 
 ## Table of Contents
 
@@ -10,9 +41,6 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## Disclaimer
-
-**Please Note:** The code for this software is strictly classified, as it is currently in the process of being prepared for production and release. This repository is intended for demonstration purposes only. Any unauthorized use, distribution, or replication of this code is strictly prohibited.
 
 ## Introduction
 
