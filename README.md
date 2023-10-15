@@ -2,7 +2,7 @@
     <img width="30%" src="./Preview/logo.png" alt="brand logo" >
 </p>
 
-# Threadfox - Automated Video Content Creation SaaS
+# Threadfox - AI Video Content Creation SaaS
 
 ## Disclaimer
 
@@ -143,4 +143,4 @@ For more detailed information and usage instructions, refer to the documentation
 
 ## License
 
-Threadfox is licensed under the [MIT License](LICENSE). Feel free to use and modify this software within the terms of the license.
+Threadfox is licensed under the [MIT License](LICENSE). 
